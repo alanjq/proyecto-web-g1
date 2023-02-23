@@ -1,20 +1,31 @@
-# Crear rama nueva
-git checkout -b barra-navegacion
+# Proyecto de sitio React
 
-# Subir rama (la primera vez que se crea)
-git push -u origin barra-navegacion
+[Idea base](https://cry.extrascripts.xyz/)
 
-# Traer cambios desde master
-git checkout master
+[Documentación Tailwind](https://tailwindcss.com/docs/flex)
 
-## Descargar cambios recientes de la rama master
-git pull
+# Trabajando con Git
 
-## Regresar a nuestra rama(donde queremos los cambios)
-git checkout barra-navegacion
+Crear rama nueva
+>    `git checkout -b barra-navegacion`
 
-## Traer los cambios y fusionarlos en nuestra rama
-git merge master
+Subir rama (la primera vez que se crea)
+> `git push -u origin barra-navegacion`
 
-## Subir cambios
-git push
+Traer cambios desde master
+> `git checkout master`
+
+Descargar cambios recientes de la rama actual
+> `git pull`
+
+Regresar a nuestra rama(donde queremos los cambios)
+> `git checkout barra-navegacion`
+
+Traer los cambios y fusionarlos en nuestra rama
+> `git merge master`
+
+Subir cambios
+> `git push`
+
+Buscar cambios de las ramas remotas
+> `git fetch -a`
