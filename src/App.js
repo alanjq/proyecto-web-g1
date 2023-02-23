@@ -1,5 +1,6 @@
 import './App.css';
 import HomeSection from './sections/home/Home';
+import ServicesSection from './sections/services/ServicesSection';
 
 function App() {
   return (
@@ -18,6 +19,8 @@ function App() {
         <p className='bg-red-100 flex-auto'>Columna A</p>
         <p className='bg-red-200 flex-auto'>Columna B</p>
       </div>
+
+      <ServicesSection />
     </main>
   );
 }
