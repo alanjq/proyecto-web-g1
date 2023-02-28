@@ -1,6 +1,7 @@
 import './App.css';
+import Container from './components/container/Container';
 import HomeSection from './sections/home/Home';
-
+import ServiceSection from './sections/services/ServicesSection';
 function App() {
   return (
     <main className='flex flex-col'>
@@ -18,8 +19,14 @@ function App() {
         <p className='bg-red-100 flex-auto'>Columna A</p>
         <p className='bg-red-200 flex-auto'>Columna B</p>
       </div>
+
+      <ServiceSection />
+    
     </main>
+
+
   );
 }
+
 
 export default App;
