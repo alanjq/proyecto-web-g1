@@ -1,6 +1,7 @@
 import './App.css';
 import HomeSection from './sections/home/Home';
 import ServicesSection from './sections/services/ServicesSection';
+import WorkSection from './sections/work/WorkSection';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
 
       <ServicesSection />
 
+      <WorkSection />
     </main>
 
   );
