@@ -6,15 +6,15 @@ function AboutSection() {
     return (
         <Container>
             <div className='container md:mx-auto'>
-                <div className='flex-col lg:flex-row flex'>
-                    <div className='flex-1'>
+                <div className='flex-col lg:flex-row gap-6 flex'>
+                    <div className='flex-1 px-4'>
                         <div>
-                            <p className='font-medium'> ABOUT US</p>
-                            <p className='text-xl font-medium'>
+                            <p className='text-[24px] font-normal'> ABOUT US</p>
+                            <p className='text-[25px] font-medium mb-2 '>
                                 We specialize in transforming your ideas into digital creative desings & digital products
                             </p>
                         </div>
-                        <div>
+                        <div className='mb-6'>
                             <p>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                             </p>
@@ -31,19 +31,19 @@ function AboutSection() {
                             </div>
                         </div>
                         <div className='flex'>
-                            <div className='flex-1 text-xs'>
+                            <div className='flex-1 text-sm font-medium'>
                                 Years Of Experience
                             </div>
-                            <div className='flex-1  text-xs'>
+                            <div className='flex-1  text-sm font-medium'>
                                 Satisfied Client
                             </div>
-                            <div className='flex-1 text-xs font-sans'>
+                            <div className='flex-1 text-sm font-medium'>
                                 Happy Customers
                             </div>
                         </div>
                         <div className=' flex '>
-                            <div className='flex-none rounded-full border-8 px-8 '>
-                                <button className=''>READ MORE!!</button>
+                            <div className='flex-none rounded-full border-2 my-6 border-black  hover:bg-[#ff9800] transition duration-500 '>
+                                <button className='py-2.5 px-9 font-semibold'>READ MORE</button>
                             </div>
                         </div>
                     </div>
