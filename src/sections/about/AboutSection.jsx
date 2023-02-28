@@ -7,13 +7,13 @@ function AboutSection() {
             <div className='flex-row flex'>
                 <div className='flex-1'>
                     <div>
-                        <p className='font-medium'> ABOUT US</p>
-                        <p className='text-xl font-medium'>
+                        <h4 className='font-medium text-[24px]'> ABOUT US</h4>
+                        <h2 className='text-xl text-[25px]'>
                             We specialize in transforming your ideas into digital creative desings & digital products
-                        </p>
+                        </h2>
                     </div>
                     <div>
-                        <p>
+                        <p className='text-[14px]'>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                         </p>
                     </div>
