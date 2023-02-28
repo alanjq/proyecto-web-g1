@@ -1,6 +1,7 @@
 import './App.css';
 import Navbar from './components/navbar/Navbar';
 import HomeSection from './sections/home/Home';
+import ServicesSection from './sections/services/ServicesSection';
 
 function App() {
   return (
@@ -16,6 +17,16 @@ function App() {
           <p className='bg-blue-300 flex-auto'>Columna</p>
         </div>
 
+
+      {/* dos */}
+      <div className='flex-row flex'>
+        <p className='bg-red-100 flex-auto'>Columna A</p>
+        <p className='bg-red-200 flex-auto'>Columna B</p>
+      </div>
+
+      <ServicesSection />
+  
+
         {/* dos */}
         <div className='flex-row flex'>
           <p className='bg-red-100 flex-auto'>Columna A</p>
@@ -23,6 +34,7 @@ function App() {
         </div>
       </main>
     </>
+
   );
 }
 
