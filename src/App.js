@@ -6,6 +6,7 @@ import AboutSection from './sections/about/AboutSection';
 import Navbar from './components/navbar/Navbar';
 import Footer from './components/footer/Footer';
 import ContactSection from './sections/contact/ContactSection';
+import TestimonialsSection from './sections/testimonials/TestimonialsSection';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <ServicesSection />
         <WorkSection />
         <ContactSection />
+        <TestimonialsSection />
       </main>
 
       <Footer />
