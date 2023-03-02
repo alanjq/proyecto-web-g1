@@ -1,25 +1,27 @@
 import './App.css';
 import HomeSection from './sections/home/Home';
+import ServicesSection from './sections/services/ServicesSection';
 import WorkSection from './sections/work/WorkSection';
+import AboutSection from './sections/about/AboutSection';
+import Navbar from './components/navbar/Navbar';
+import Footer from './components/footer/Footer';
+import ContactSection from './sections/contact/ContactSection';
 
 function App() {
   return (
-    <main className='flex flex-col'>
-      <HomeSection />
-      {/* tres columnas */}
-      <div className='flex-row flex mb-4'>
-        <p className='bg-blue-100 flex-auto'>Columna</p>
-        <p className='bg-blue-200 flex-auto'>Columna</p>
-        <p className='bg-blue-300 flex-auto'>Columna</p>
-      </div>
+    <>
+      <Navbar />
 
-      {/* dos */}
-      <div className='flex-row flex'>
-        <p className='bg-red-100 flex-auto'>Columna A</p>
-        <p className='bg-red-200 flex-auto'>Columna B</p>
-      </div>
-      <WorkSection />
-    </main>
+      <main className='flex flex-col'>
+        <HomeSection />
+        <AboutSection />
+        <ServicesSection />
+        <WorkSection />
+        <ContactSection />
+      </main>
+
+      <Footer />
+    </>
   );
 }
 
