@@ -13,9 +13,6 @@ function App() {
       <AboutSection />
       <ServicesSection />
     </main>
-
-  );
-}
-
+    
 
 export default App;

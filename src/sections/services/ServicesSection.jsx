@@ -1,11 +1,16 @@
 import React from 'react';
 import Container from '../../components/container/Container';
+import design from '../../img/design.png';
+import managment from '../../img/managment.png';
+import strategy from '../../img/strategy.png';
+
 
     
 
 
 function ServicesSection() {
     return (
+
       
         <div style={{backgroundColor:"#F6F6F6", height:"100%" }}>
             <div style={{paddingTop:"50px", color:"#facc15", fontSize:"13px"}}>WHAT WE DO</div>
@@ -38,6 +43,7 @@ function ServicesSection() {
                              <a><b>READ MORE</b></a>
                 </div>
             </section>
+
         </Container>
         </div>
 
@@ -47,4 +53,7 @@ function ServicesSection() {
 
 
 
+
 export default ServicesSection
+
+
