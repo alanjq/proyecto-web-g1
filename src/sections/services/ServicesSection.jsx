@@ -3,6 +3,7 @@ import Container from '../../components/container/Container';
 import design from '../../img/design.png';
 import managment from '../../img/managment.png';
 import strategy from '../../img/strategy.png';
+import ServicesItems from './ServicesItems';
 
 
     
@@ -10,6 +11,38 @@ import strategy from '../../img/strategy.png';
 
 function ServicesSection() {
     return (
+<>
+        <Container>
+    
+            <div className='flex-row mb-20'>
+                <div className='flex flex-col'>
+                    <p className='text-yellow-500 flex flex-col'><b>WHAT WE DO</b></p>
+                    <h1 className='text-gray-500 flex flex-col mb-6' ><b>AMAZING SERVICES</b></h1>
+                </div>
+    
+                <div className="flex flex-nowrap"> 
+                <ServicesItems img = {design} titulo={'Design & Development'} />
+                    {/*<div className='flex flex-col gap-4 px-10'>
+                        <img className='rounded-full' src={design} alt="design" />
+                        <h1><b>Design & Development</b></h1>
+                        <p className='text-gray-600'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmad tempar incididunt ut labore. <br />
+                            <b> READ MORE</b></p>
+                    </div>*/}
+                    <ServicesItems img = {strategy} titulo={'Strategy & Research'} />
+                    {/*<div className='flex flex-col gap-4 px-8'>
+                        <img className='rounded-full' src={strategy} alt="strategy" />
+                        <h1><b>Strategy & Research</b></h1>
+                        <p className='text-gray-600'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmad tempar incididunt ut labore. <br />
+                            <b> READ MORE</b></p>
+                    </div>*/}
+                    <ServicesItems img = {managment} titulo={'Managment & Marketing'} />
+                    {/*<div className='flex flex-col gap-4 px-8'>
+                        <img className='rounded-full' src={managment} alt="managment" />
+                        <h1><b>Managment & Marketing</b></h1>
+                        <p className='text-gray-600 mb-4'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmad tempar incididunt ut labore. <br />
+                            <b> READ MORE</b></p>
+                    </div>*/}
+<hr/>
 
       
         <div style={{backgroundColor:"#F6F6F6", height:"100%" }}>
@@ -33,6 +66,7 @@ function ServicesSection() {
                        <h1><b>Strategy & Research</b></h1>
                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmad tempar incididunt ut labore. </p>
                              <a><b>READ MORE</b></a>
+
                 </div>
                 <div className='flex flex-col justify-evenly' style={{backgroundColor:"white", padding:'67px 40px 64px', boxShadow:'black, 10px', margin:'15px'}}>
                                    {/* <div style={{background:'none repeat scroll 0 0 #030D46', height:'300px', width:'300px', borderRadius:'50%', position:'absolute', marginLeft:'-150px', top:'-150px'}}></div> */}
@@ -46,7 +80,7 @@ function ServicesSection() {
 
         </Container>
         </div>
-
+</>
        
     )
 }
