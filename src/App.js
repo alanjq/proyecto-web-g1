@@ -1,31 +1,18 @@
 import './App.css';
-import Footer from './components/footer/Footer';
-import Navbar from './components/navbar/Navbar';
-import AboutSection from './sections/about/AboutSection';
-import ContactSection from './sections/contact/ContactSection';
+// import Box from './sections/services/box';
+// import Container from './components/container/Container';
 import HomeSection from './sections/home/Home';
 import ServicesSection from './sections/services/ServicesSection';
-import TestimonialsSection from './sections/testimonials/TestimonialsSection';
-import WorkSection from './sections/work/WorkSection';
+// import WorkSection from './sections/work/WorkSection';
+import AboutSection from './sections/about/AboutSection';
 
 function App() {
   return (
-    <>
-      <Navbar />
-
-      <main className='flex flex-col'>
-        <HomeSection />
-        <AboutSection />
-        <ServicesSection />
-        <WorkSection />
-        <ContactSection />
-        <TestimonialsSection />
-      </main>
-
-      <Footer />
-    </>
-  );
-}
-
+    <main className='flex flex-col'>
+      <HomeSection />
+      <AboutSection />
+      <ServicesSection />
+    </main>
+    
 
 export default App;
