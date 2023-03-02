@@ -17,20 +17,19 @@ function ServicesSection() {
 
                 <div className="flex flex-nowrap">
                     <div className='flex flex-col gap-4'>
-                        <img className='rounded-full h-20 w-20 block bg-blue-50' src={design} alt="design" />
+                        <img className='rounded-full' src={design} alt="design" />
                         <h1><b>Design & Development</b></h1>
                         <p className='text-gray-600'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmad tempar incididunt ut labore. <br />
                             <b> READ MORE</b></p>
                     </div>
                     <div className='flex flex-col gap-4'>
-                        <img className='rounded-full h-20 w-20 block bg-blue-50' src={strategy} alt="strategy" />
+                        <img className='rounded-full' src={strategy} alt="strategy" />
                         <h1><b>Strategy & Research</b></h1>
                         <p className='text-gray-600'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmad tempar incididunt ut labore. <br />
                             <b> READ MORE</b></p>
                     </div>
                     <div className='flex flex-col gap-4'>
-                        {/*<span className='rounded-full h-20 w-20 block bg-blue-700 -mt-20 -ml-20' ></span>*/}
-                        <img className='rounded-full h-20 w-20 block bg-blue-50' src={managment} alt="managment" />
+                        <img className='rounded-full' src={managment} alt="managment" />
                         <h1><b>Managment & Marketing</b></h1>
                         <p className='text-gray-600 mb-4'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmad tempar incididunt ut labore. <br />
                             <b> READ MORE</b></p>
