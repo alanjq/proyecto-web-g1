@@ -6,7 +6,7 @@ import ContactSection from './sections/contact/ContactSection';
 import HomeSection from './sections/home/Home';
 import ServicesSection from './sections/services/ServicesSection';
 import WorkSection from './sections/work/WorkSection';
-
+import TestimonialsSection from './sections/testimonials/TestimonialsSection';
 
 function App() {
   return (
@@ -19,6 +19,7 @@ function App() {
         <ServicesSection />
         <WorkSection />
         <ContactSection />
+        <TestimonialsSection />
       </main>
 
       <Footer />
