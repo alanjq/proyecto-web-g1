@@ -1,12 +1,12 @@
 import './App.css';
-import Footer from './components/footer/Footer';
-import Navbar from './components/navbar/Navbar';
-import AboutSection from './sections/about/AboutSection';
-import ContactSection from './sections/contact/ContactSection';
 import HomeSection from './sections/home/Home';
 import ServicesSection from './sections/services/ServicesSection';
-import TestimonialsSection from './sections/testimonials/TestimonialsSection';
 import WorkSection from './sections/work/WorkSection';
+import AboutSection from './sections/about/AboutSection';
+import Navbar from './components/navbar/Navbar';
+import Footer from './components/footer/Footer';
+import ContactSection from './sections/contact/ContactSection';
+import TestimonialsSection from './sections/testimonials/TestimonialsSection';
 
 function App() {
   return (
@@ -26,6 +26,5 @@ function App() {
     </>
   );
 }
-
 
 export default App;
