@@ -6,21 +6,20 @@ import strategy from '../../img/strategy.png';
 import ServicesItems from './ServicesItems';
 
 
-    
+
 
 
 function ServicesSection() {
     return (
 <>
-        <Container>
-    
+
             <div className='flex-row mb-20'>
                 <div className='flex flex-col'>
                     <p className='text-yellow-500 flex flex-col'><b>WHAT WE DO</b></p>
                     <h1 className='text-gray-500 flex flex-col mb-6' ><b>AMAZING SERVICES</b></h1>
                 </div>
-    
-                <div className="flex flex-nowrap"> 
+
+                <div className="flex flex-nowrap">
                 <ServicesItems img = {design} titulo={'Design & Development'} />
                     {/*<div className='flex flex-col gap-4 px-10'>
                         <img className='rounded-full' src={design} alt="design" />
@@ -42,13 +41,13 @@ function ServicesSection() {
                         <p className='text-gray-600 mb-4'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmad tempar incididunt ut labore. <br />
                             <b> READ MORE</b></p>
                     </div>*/}
-<hr/>
 
-      
+
+
         <div style={{backgroundColor:"#F6F6F6", height:"100%" }}>
             <div style={{paddingTop:"50px", color:"#facc15", fontSize:"13px"}}>WHAT WE DO</div>
             <div style={{paddingBottom:"50px", color:"#545454", fontSize:"30px"}}><b>AMAZING SERVICES</b></div>
-
+</div>
          <Container>
            <section className='flex' style={{paddingBottom:"100px"}}>
              <div className='flex flex-col justify-evenly' style={{backgroundColor:"white", padding:'67px 40px 64px', boxShadow:'black, 10px', height:'500px', margin:'15px', overflow:'hidden'}}>
@@ -57,7 +56,7 @@ function ServicesSection() {
                          <h1><b>Design & Development</b></h1>
                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmad tempar incididunt ut labore.</p>
                                  <a><b>READ MORE</b></a>
-                                 
+
              </div>
                 <div className='flex flex-col justify-evenly' style={{backgroundColor:"white", padding:'67px 40px 64px', boxShadow:'black, 10px',  margin:'15px'}}>
                 {/* <div style={{background:'none repeat scroll 0 0 #030D46', height:'300px', width:'300px', borderRadius:'50%', position:'absolute', marginLeft:'-150px', top:'-150px'}}></div> */}
@@ -80,9 +79,9 @@ function ServicesSection() {
 
         </Container>
         </div>
-</>
-       
-    )
+        </div>
+
+</>)
 }
 
 
